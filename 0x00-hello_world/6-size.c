@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -Print out sizes of date types in C
+ * main - print out sizes of date types in C
  * code by bwave ict
  * Return: 0
 */
@@ -10,11 +10,11 @@ int main(void)
 	int b;
 	long int c;
 	long long int d;
-	float e;
+	float f;
 
 	printf("Size of a char: %lu byte(S)\n", (unsigned long)sizeof(a));
 	printf("Size of a int: %lu byte(S)\n", (unsigned long)sizeof(b));
 	printf("Size of a long int: %lu byte(S)\n", (unsigned long)sizeof(c));
 	printf("Size of a long long int: %lu byte(S)\n", (unsigned long)sizeof(d));
-	printf("Size of a float: %lu byte(S)\n", (unsigned long)sizeof(e));
+	printf("Size of a float: %lu byte(S)\n", (unsigned long)sizeof(f));
 	return (0);
