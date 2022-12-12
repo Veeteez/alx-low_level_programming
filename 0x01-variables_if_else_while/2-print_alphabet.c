@@ -5,12 +5,17 @@
  *
  * Return: Always O
  */
+
 int main(void)
 {
-	char letter;
+	char c;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
+	c = 'a';
+	while
+		(c <= 'z') {
+		putchar(c);
+		c++;
+		}
 	putchar('\n');
 	Return(0);
 }
